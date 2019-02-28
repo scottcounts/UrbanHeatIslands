@@ -1,0 +1,9 @@
+
+{
+      "Name":"scottcounts_UrbanHeatIslands_DataProcessing",
+      "Tags":["weather","urban","global_warming","urban_heat_islands"],
+      "DataSets":["noaa"],
+      "Type":"GitRepo",
+      "Url":"https://github.com/scottcounts/UrbanHeatIslands_DataProcessing.git",
+      "Description":"Data processing script: takes hourly NOAA weather station data, produces daily per-city urban heat island indices. January 1, 2008 - present."
+}
