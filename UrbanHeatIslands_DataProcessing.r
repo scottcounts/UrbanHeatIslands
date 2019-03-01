@@ -20,13 +20,6 @@ sparkR.session(
 wasbs_path <- 'wasbs://isdweatherdatacontainer@azureopendatastorage.blob.core.windows.net/ISDWeather/'
 
 
-#sparkR.session(
-#  sparkConfig = list(
-#    'fs.azure.sas.isdweathertestcontainer.datazenforpublictest.blob.core.windows.net' = '?sv=2018-03-28&ss=b&srt=sco&sp=rl&se=2099-01-01T11:19:28Z&st=2018-12-#27T03:19:28Z&spr=https&sig=E%2FHt9cjV7JyozvByU6tFD3kUtN8v%2Fn3JpLQRTmvwu%2Fw%3D'
-#  )
-#)
-#wasbs_path <- 'wasbs://isdweathertestcontainer@datazenforpublictest.blob.core.windows.net/ISDWeather'
-
 # full data
 isdDF <- read.df(wasbs_path, source = "parquet")
 
