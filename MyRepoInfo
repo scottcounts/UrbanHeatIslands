@@ -5,5 +5,5 @@
       "DataSets":["isd"],
       "Type":"GitRepo",
       "Url":"https://github.com/scottcounts/UrbanHeatIslands_DataProcessing.git",
-      "Description":"Data processing script: takes hourly NOAA weather station data, produces daily per-city urban heat island indices. January 1, 2008 - present."
+      "Description":"Takes hourly NOAA weather station data, produces daily per-city urban heat island indices (January 1, 2008 - present), then provides analytics to compare cities and over time, including relationship with population density."
 }
