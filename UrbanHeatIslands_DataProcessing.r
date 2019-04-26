@@ -14,9 +14,10 @@ library(SparkR)
 # initialize session
 sparkR.session(
   sparkConfig = list(
-    'fs.azure.account.key.azureopendatastorage.blob.core.windows.net' = 'H5xcOyRSlehC/HHqJQ6qMiHnCnSyjVbhPie2zE7GE5fG2umrG2fMS7l3NX7R3sh7zCIiIv30ZaUZXKDdiARrsw=='
+    'fs.azure.sas.isdweatherdatacontainer.azureopendatastorage.blob.core.windows.net' = '?st=2019-01-18T03%3A10%3A05Z&se=9999-01-19T03%3A10%3A00Z&sp=rl&sv=2018-03-28&sr=c&sig=yr%2BymNXXb2Fxt8rJSi2GEgeEEtXW1%2FNk2NofF6ct9L8%3D'
   )
 )
+
 wasbs_path <- 'wasbs://isdweatherdatacontainer@azureopendatastorage.blob.core.windows.net/ISDWeather/'
 
 
